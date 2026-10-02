@@ -6,10 +6,6 @@
 
 An industry-style **LLM observability and reliability platform** built as a portfolio project. TraceForge turns model-call telemetry into trace exploration, latency/cost analytics, provider/model comparisons, and deterministic anomaly signals.
 
-## Why this project has portfolio weight
-
-It demonstrates full-stack product thinking rather than a CRUD demo: telemetry ingestion, API-key security, Postgres/RLS data isolation, statistical anomaly detection, cost/latency analytics, responsive product UI, synthetic-demo safety, tests, and deployment-ready configuration.
-
 ## Architecture
 
 ```text
