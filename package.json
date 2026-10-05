@@ -7,12 +7,29 @@
   "scripts": {
     "dev": "node server.mjs",
     "start": "NODE_ENV=production node server.mjs",
-    "test": "node --test tests/*.test.mjs"
+    "test": "node --test tests/*.test.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node --check server.mjs && node --check public/app.js && node --check public/live.js"
   },
-  "engines": { "node": ">=22" },
+  "engines": {
+    "node": ">=22"
+  },
   "license": "MIT",
-  "repository": { "type": "git", "url": "git+https://github.com/jonellbuilds/traceforge-ai.git" },
-  "bugs": { "url": "https://github.com/jonellbuilds/traceforge-ai/issues" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonellbuilds/traceforge-ai.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonellbuilds/traceforge-ai/issues"
+  },
   "homepage": "https://github.com/jonellbuilds/traceforge-ai#readme",
-  "keywords": ["llm","observability","ai","anomaly-detection","supabase","postgresql","telemetry"]
+  "keywords": [
+    "llm",
+    "observability",
+    "ai",
+    "anomaly-detection",
+    "supabase",
+    "postgresql",
+    "telemetry"
+  ]
 }
